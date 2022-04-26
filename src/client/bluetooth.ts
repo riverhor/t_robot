@@ -30,8 +30,8 @@ async onConnectClick() {
       const characteristics = await service?.getCharacteristic(this.characteristicsUUID);
       (characteristics!=undefined) ? this.characteristics= characteristics : null
       console.log(this.characteristics)
-      let myDescriptor = await this.characteristics.getDescriptors()
-      console.log(myDescriptor)  
+      //let myDescriptor = await this.characteristics.getDescriptors()
+      //console.log(myDescriptor)  
 
     } catch(error)  {
       console.log('Argh! ' + error);
