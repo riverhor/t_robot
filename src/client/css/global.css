@@ -1,0 +1,13 @@
+body {
+    overflow: hidden;
+    margin: 0px;
+}
+
+#progressBar {
+    width: 500px;
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    margin-left: -250px;
+}
